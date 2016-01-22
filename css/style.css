@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+body{
+
+}
+
+
+header {
+  background-image: url(../images/payments-banner-graphic.png);
+  width: 1400px;
+  height: 550px;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+
+.right {
+  display: inline-block;
+  vertical-align: middle;
+  width: 900px;
+  padding-left: 10px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.left{
+  display: inline-block;
+}
+ul{
+  margin-left: 15px;
+}
+li{
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 20px;
+
+}
+
+a, a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.icone{
+  display: flex;
+  justify-content: space-around;
+
+}
